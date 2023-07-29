@@ -15,8 +15,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "packagr": "ng-packagr -p ng-package.json",
-    "docs": "ng build --configuration production --output-path docs --base-href ng2-pdf-viewer && cp ./docs/index.html ./docs/404.html",
-    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
+    "docs": "ng build --configuration production --output-path docs --base-href ng2-pdf-viewer && cp ./docs/index.html ./docs/404.html"
   },
   "private": false,
   "repository": {
@@ -30,8 +29,7 @@
     "angular-pdf",
     "angular2-pdf",
     "ng2",
-    "ng2-pdf",
-    "angular5"
+    "ng2-pdf"
   ],
   "author": "Vadym Yatsyuk <vadym.yatsyuk@gmail.com>",
   "bugs": {
@@ -39,14 +37,13 @@
   },
   "homepage": "https://github.com/VadimDez/ng2-pdf-viewer#readme",
   "dependencies": {
-    "pdfjs-dist": "~2.14.305",
+    "pdfjs-dist": "~3.8.162",
     "tslib": "^2.6.1"
   },
   "peerDependencies": {
-    "pdfjs-dist": "~2.14.305"
+    "pdfjs-dist": "~3.8.162"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.1.6",
     "@angular/animations": "^16.1.7",
     "@angular/cdk": "^16.1.6",
     "@angular/cli": "^16.1.6",
@@ -60,24 +57,23 @@
     "@angular/platform-browser": "^16.1.7",
     "@angular/platform-browser-dynamic": "^16.1.7",
     "@angular/router": "^16.1.7",
-    "@types/jasmine": "~3.6.0",
+    "@types/jasmine": "~3.10.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^13.13.52",
-    "codelyzer": "^6.0.2",
-    "jasmine-core": "~3.6.0",
-    "jasmine-spec-reporter": "~5.0.0",
+    "codelyzer": "~6.0.2",
+    "jasmine-core": "~5.1.0",
     "karma": "~6.3.11",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage-istanbul-reporter": "~3.0.2",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.7.0",
     "ng-packagr": "^16.1.0",
-    "protractor": "~7.0.0",
-    "puppeteer": "^5.5.0",
-    "rxjs": "~6.5.3",
+    "protractor": "^7.0.0",
+    "puppeteer": "^20.9.0",
+    "rxjs": "~7.8.1",
     "ts-node": "~8.6.2",
     "tslint": "~6.1.0",
-    "typescript": "~4.9.5",
+    "typescript": "~5.1.6",
     "webpack-bundle-analyzer": "^4.9.0",
     "zone.js": "^0.13.1"
   }
